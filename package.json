@@ -1,0 +1,33 @@
+{
+  "name": "iata-airline-mgr",
+  "version": "1.0.0",
+  "description": "Demo package containing various functions",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install",
+    "lint": "npx eslint src",
+    "lint:fix": "npm run lint -- --fix",
+    "prettier": "npx prettier src --check",
+    "prettier:fix": "npm run prettier -- --write",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unoah/IataAirlineMgr.git"
+  },
+  "author": "unoah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/unoah/IataAirlineMgr/issues"
+  },
+  "homepage": "https://github.com/unoah/IataAirlineMgr#readme",
+  "dependencies": {
+    "axios": "^0.24.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.3.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "prettier": "^2.4.1"
+  }
+}
